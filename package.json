@@ -1,0 +1,10 @@
+{
+  "name": "linter-beancount",
+  "version": "0.0.0",
+  "description": "Linter for beancount",
+  "repository": "https://github.com/sfischer13/atom-linter-beancount",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
