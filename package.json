@@ -1,6 +1,6 @@
 {
   "name": "linter-beancount",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Linter for beancount files.",
   "keywords": [
     "beancount",
