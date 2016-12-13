@@ -18,3 +18,18 @@ apm install linter
 apm install linter-beancount
 ```
 
+## Command
+
+`linter-beancount:run`
+
+```
+Linter: Lint
+Linter Beancount: Run
+```
+
+## Keymap
+
+```
+'atom-text-editor':
+  'alt-b c': 'linter-beancount:run'
+```
