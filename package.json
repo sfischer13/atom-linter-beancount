@@ -1,5 +1,6 @@
 {
   "name": "linter-beancount",
+  "main": "./lib/linter-beancount",
   "version": "0.1.0",
   "private": true,
   "description": "Linter for beancount files.",
@@ -10,10 +11,26 @@
     "lint",
     "ledger"
   ],
+  "activationCommands": {
+    "atom-text-editor": "linter-beancount:run"
+  },
   "repository": "https://github.com/sfischer13/atom-linter-beancount",
   "license": "MIT",
   "engines": {
     "atom": ">=1.10.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "atom-linter": "^8.0.0",
+    "atom-package-deps": "^4.3.1"
+  },
+  "package-deps": [
+    "linter"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  }
 }
