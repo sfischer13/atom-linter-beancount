@@ -14,7 +14,6 @@ pip3 install beancount
 ```
 
 ```
-apm install linter
 apm install linter-beancount
 ```
 
