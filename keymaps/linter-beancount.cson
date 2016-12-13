@@ -1,3 +1,2 @@
 'atom-text-editor':
-  'ctrl-alt-c': 'linter-beancount:run'
-  'cmd-alt-c': 'linter-beancount:run'
+  'alt-b c': 'linter-beancount:run'
